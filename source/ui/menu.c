@@ -270,7 +270,7 @@ void menuDrawBot(void)
 		drawingDrawImage(images_scrollbarKnob_idx,  0xFFFFFFFF, 308.0f, calcScrollbarKnobPos(menu, y));
 	}
 
-	drawingDrawImage(images_settings_idx, 0xFFFFFFFF, 320.0f-g_imageData[images_settings_idx].width, 240.0f-g_imageData[images_settings_idx].height);
+	//drawingDrawImage(images_settings_idx, 0xFFFFFFFF, 320.0f-g_imageData[images_settings_idx].width, 240.0f-g_imageData[images_settings_idx].height);
 
 	if (showingHomeIcon)
 	{
